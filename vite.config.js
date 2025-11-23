@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://employeemanagement-system-2822.onrender.com/api',
         changeOrigin: true
       }
     }
